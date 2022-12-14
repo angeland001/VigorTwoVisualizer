@@ -6,7 +6,7 @@ public class LimitFramerate : MonoBehaviour
 {
     void Awake () {
         QualitySettings.vSyncCount = 0;  // VSync must be disabled
-        Application.targetFrameRate = 24;
+        Application.targetFrameRate = 60;
     }
 
     // Start is called before the first frame update
